@@ -17,28 +17,7 @@
 
     <div class="container">
 
-      <!-- Static navbar -->
-      <div class="navbar navbar-default">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Search Event</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar-static-top/">Register</a></li>
-            <li><a href="../navbar-fixed-top/">Sign In</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
+    <? require('header.inc.php'); ?>
 
       <!-- Search Section -->
       <div class="jumbotron">

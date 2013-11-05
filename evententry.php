@@ -33,31 +33,7 @@
 
     <div class="container">
 
-      <!-- Static navbar -->
-      <div class="navbar navbar-default">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Husky Helpers</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-           
-			<li><a href="#">Organization Sign Up</a></li>
-            <li><a href="#">Volunteer Sign Up</a></li>
-            <li><a href="#">Create an Event</a></li>
-			<li><a href="#">UW Coordinator</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Contact Us</a></li>
-          </ul>
-		  
-          
-        </div><!--/.nav-collapse -->
-      </div>
-
+    <? require('header.inc.php'); ?>
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
         <h1>Create Your Event Listing</h1>
