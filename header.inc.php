@@ -13,10 +13,5 @@
         <li><a href="/eventlist.php">Event List</a></li>
         <li><a href="/evententry.php">Event Entry</a></li>
       </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="./">Default</a></li>
-        <li><a href="../navbar-static-top/">Static top</a></li>
-        <li><a href="../navbar-fixed-top/">Fixed top</a></li>
-      </ul>
     </div><!--/.nav-collapse -->
   </div>
