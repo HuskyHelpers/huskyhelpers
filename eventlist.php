@@ -6,10 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-	<link rel="shortcut icon" href="resources/favicon.ico">
     <title>Event List</title>
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="navbar.css" rel="stylesheet">
+    <link href="resources/css/bootstrap.css" rel="stylesheet">
+    <link href="resources/css/navbar.css" rel="stylesheet">
     <link rel="shortcut icon" href="resources/favicon.ico">
   </head>
 
