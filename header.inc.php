@@ -9,9 +9,9 @@
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="/">Home</a></li>
-        <li><a href="/eventlist.php">Event List</a></li>
-        <li><a href="/evententry.php">Event Entry</a></li>
+        <li <? if($_SERVER['PHP_SELF'] == "/index.php") { ?>class="active"<? } ?>><a href="/">Home</a></li>
+        <li <? if($_SERVER['PHP_SELF'] == "/eventlist.php") { ?>class="active"<? } ?>><a href="/eventlist.php">Event List</a></li>
+        <li <? if($_SERVER['PHP_SELF'] == "/evententry.php") { ?>class="active"<? } ?>><a href="/evententry.php">Event Entry</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
