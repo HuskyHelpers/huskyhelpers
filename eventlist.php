@@ -14,10 +14,10 @@
   </head>
 
   <body>
-
+<? require('header.inc.php'); ?>
     <div class="container">
 
-    <? require('header.inc.php'); ?>
+    
 
       <!-- Search Section -->
       <div class="jumbotron">

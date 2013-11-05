@@ -30,10 +30,10 @@
   </head>
 
   <body>
-
+    <? require('header.inc.php'); ?>
     <div class="container">
 
-    <? require('header.inc.php'); ?>
+    
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
         <h1>Create Your Event Listing</h1>
