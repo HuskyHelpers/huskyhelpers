@@ -1,8 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
+<? require('inc/header.inc.php'); ?>
     <title>Event List</title>
-    <? require('inc/header.inc.php'); ?>
+
   </head>
 
   <body>

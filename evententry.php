@@ -1,8 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
+<? require('inc/header.inc.php'); ?>
     <title>Husky Helpers - Event Entry</title>
-    <? require('inc/header.inc.php'); ?>
   </head>
 
   <body>

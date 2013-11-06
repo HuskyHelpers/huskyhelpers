@@ -1,9 +1,5 @@
-<html>
-<link href="css/bootstrap.css" rel="stylesheet">
-<link href="navbar.css" rel="stylesheet">
-<head>
-    <title>Husky Helpers - Home</title>
-    <? require('inc/header.inc.php'); ?>
+<? require('inc/header.inc.php'); ?>
+<title>Husky Helpers - Home</title>
 </head>
 <body>
     <? require('inc/navbar.inc.php'); ?>
