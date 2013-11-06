@@ -7,8 +7,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Event List</title>
-    <link href="/css/bootstrap.css" rel="stylesheet">
-    <link href="/css/navbar.css" rel="stylesheet">
+    <link href="/resources/css/bootstrap.css" rel="stylesheet">
+    <link href="/resources/css/navbar.css" rel="stylesheet">
     <link rel="shortcut icon" href="/favicon.ico">
   </head>
 
