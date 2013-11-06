@@ -7,8 +7,6 @@
 <? require('inc/navbar.inc.php'); ?>
     <div class="container">
 
-    
-
       <!-- Search Section -->
       <div class="jumbotron">
         <h1>Event List</h1>
@@ -43,8 +41,8 @@
 					<option value="22">10:00 PM</option>
 					<option value="23">11:00 PM</option>
 					<option value="24">12:00 AM</option>
-				</select
-				<h> to </h>
+				</select>
+				to
 				<select name="mydropdown" type="button" class="btn btn-sm dropdown-toggle" data-toggle="dropdown">
 					Action <span class="caret"></span>
 					<option value="Not">End Time</option>
