@@ -30,7 +30,7 @@
 					</ul>
 				</div>
 				<p>
-					<a class="btn btn-lg btn-primary" role="button">Search &raquo;</a>
+					<a class="btn btn-lg btn-primary" role="button">Submit &raquo;</a>
 				</p>
 			</div>
 		</div>
