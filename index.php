@@ -10,5 +10,4 @@
 <form>
 <h2>Search for volunteer events:  <input type="text" name="Search"<br></h2>
 </form> 
-</body>
-</html>
+<? require("inc/footer.inc.php"); ?>

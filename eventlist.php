@@ -101,6 +101,4 @@
 	  </table>
 
     </div> <!-- /container -->
-
-  </body>
-</html>
+<? require("inc/footer.inc.php"); ?>
