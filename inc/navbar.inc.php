@@ -13,5 +13,8 @@
         <li <? if($_SERVER['PHP_SELF'] == "/eventlist.php") { ?>class="active"<? } ?>><a href="/eventlist.php">Event List</a></li>
         <li <? if($_SERVER['PHP_SELF'] == "/evententry.php") { ?>class="active"<? } ?>><a href="/evententry.php">Event Entry</a></li>
       </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/login.php">Login</a></li>
+      </ul>
     </div><!--/.nav-collapse -->
   </div>
