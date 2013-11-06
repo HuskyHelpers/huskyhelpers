@@ -42,7 +42,7 @@
 					<option value="23">11:00 PM</option>
 					<option value="24">12:00 AM</option>
 				</select>
-				to
+				to  UNEXPECTED
 				<select name="mydropdown" type="button" class="btn btn-sm dropdown-toggle" data-toggle="dropdown">
 					Action <span class="caret"></span>
 					<option value="Not">End Time</option>
