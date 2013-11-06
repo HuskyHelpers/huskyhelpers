@@ -13,7 +13,7 @@
   </head>
 
   <body>
-<? require('header.inc.php'); ?>
+<? require('inc/navbar.inc.php'); ?>
     <div class="container">
 
     
