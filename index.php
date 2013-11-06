@@ -27,7 +27,7 @@
     <![endif]-->
 </head>
 <body>
-    <? require('header.inc.php'); ?>
+    <? require('inc/navbar.inc.php'); ?>
     <title>Volunteer Opportunities for UW Bothell Students</title>
 <section id="label">
 <h1>Volunteer Opporitunities for UW Bothell Students</h1>
