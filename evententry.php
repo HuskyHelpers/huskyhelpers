@@ -1,4 +1,4 @@
-<?
+<?php
     require('inc/validate.inc.php');
     require('inc/insert.inc.php');
     require('inc/header.inc.php');
@@ -36,7 +36,7 @@
 					<li class="list-group-item"> Position Name:  <input type="text" name="posname" ></li>
 					<li class="list-group-item"> Position Location: <input type="text" name="poslocation"></li>
 					<li class="list-group-item"> Position Date: <input type="date" name="posdate"></li>
-					<li class="list-group-item"> Position Description: <input type="text" name="posdescription"> </form> 
+					<li class="list-group-item"> Position Description: <input type="text" name="posdescription">
 					<!-- Number selector thing for NUMBER OF POSITIONS can go below 0.  Need to validate input. -->
 					<li class="list-group-item"> Number of Positions: <input type="number" name="posnum"></li>
 					</ul>

@@ -1,4 +1,4 @@
-<?
+<?php
 $errors = array();
 // check that the required fields are filled in
 if(!isset($_REQUEST['orgid'])) {
