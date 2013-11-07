@@ -24,6 +24,7 @@
                     
 					<!-- List group -->
 					<ul class="list-group">
+					<li class="list-group-item"> Organization ID: <input type="text" name="orgid"> </li>
 					<li class="list-group-item"> Organization Name: <input type="text" name="orgname"> </li>
 					<li class="list-group-item"> UW Affiliation: <input type="text" name="affiliation"></li>
 					<li class="list-group-item"> Position Name:  <input type="text" name="posname" ></li>
