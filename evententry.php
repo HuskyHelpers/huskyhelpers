@@ -17,17 +17,19 @@
 			 <!-- Default panel contents -->
 			<div class="panel-heading">Position Entry:
 				<div class="panel-body">
+                    <form action="evententry.php" method="POST">
 					<!-- List group -->
 					<ul class="list-group">
-					<li class="list-group-item"> <form> Organization ID: <input type="text" name="Orgid"> </form> </li>
-					<li class="list-group-item"> <form> Organization Name: <input type="text" name="Orgname"> </form> </li>
-					<li class="list-group-item"> <form> UW Affiliation: <input type="text" name="affiliation"></form></li>
-					<li class="list-group-item"> <form> Position Name:  <input type="text" name="Posname" ></form></li>
-					<li class="list-group-item"> <form> Position Location: <input type="text" name="Poslocation"></form></li>
-					<li class="list-group-item"> <form> Position Date: <input type="date" name="Posdate"></form></li>
-					<li class="list-group-item"> <form> Position Description: <input type="text" name="Posdescription"> </form> 
-					<li class="list-group-item"> <form> Number of Positions: <input type="number" name="Posnum"></form></li>
+					<li class="list-group-item">Organization ID: <input type="text" name="Orgid"> </li>
+					<li class="list-group-item"> Organization Name: <input type="text" name="Orgname">  </li>
+					<li class="list-group-item"> UW Affiliation: <input type="text" name="affiliation"></li>
+					<li class="list-group-item"> Position Name:  <input type="text" name="Posname" ></li>
+					<li class="list-group-item"> Position Location: <input type="text" name="Poslocation"></li>
+					<li class="list-group-item"> Position Date: <input type="date" name="Posdate"></li>
+					<li class="list-group-item"> Position Description: <input type="text" name="Posdescription"> </form> 
+					<li class="list-group-item"> Number of Positions: <input type="number" name="Posnum"></li>
 					</ul>
+                    </form>
 				</div>
 				<p>
 					<a class="btn btn-lg btn-primary" role="button">Submit &raquo;</a>
