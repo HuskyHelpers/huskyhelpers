@@ -18,9 +18,10 @@
 		</div>
 		<div class="panel panel-default">
 			 <!-- Default panel contents -->
+             <form action="evententry.php" method="POST">
 			<div class="panel-heading">Position Entry:
 				<div class="panel-body">
-                    <form action="evententry.php" method="POST">
+                    
 					<!-- List group -->
 					<ul class="list-group">
 					<li class="list-group-item"> Organization Name: <input type="text" name="orgname"> </li>
@@ -31,11 +32,12 @@
 					<li class="list-group-item"> Position Description: <input type="text" name="posdescription"> </form> 
 					<li class="list-group-item"> Number of Positions: <input type="number" name="posnum"></li>
 					</ul>
-                    </form>
+                    
 				</div>
 				<p>
-					<a class="btn btn-lg btn-primary" role="button">Submit &raquo;</a>
+                    <button class="btn btn-lg btn-primary">Submit &raquo;</a>
 				</p>
+                </form>
 			</div>
 		</div>
     </div> <!-- /container -->
