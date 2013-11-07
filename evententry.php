@@ -36,7 +36,7 @@
                     
 				</div>
 				<p>
-                    <button class="btn btn-lg btn-primary">Submit &raquo;</a>
+                    <input type="submit" name="submit" value="Submit &raquo;" class="btn btn-lg btn-primary">
 				</p>
                 </form>
 			</div>
