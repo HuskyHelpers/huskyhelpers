@@ -31,6 +31,7 @@
 					<li class="list-group-item"> Position Location: <input type="text" name="poslocation"></li>
 					<li class="list-group-item"> Position Date: <input type="date" name="posdate"></li>
 					<li class="list-group-item"> Position Description: <input type="text" name="posdescription"> </form> 
+					<!-- Number selector thing for NUMBER OF POSITIONS can go below 0.  Need to validate input. -->
 					<li class="list-group-item"> Number of Positions: <input type="number" name="posnum"></li>
 					</ul>
                     
