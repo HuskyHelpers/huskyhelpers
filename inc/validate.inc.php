@@ -34,7 +34,3 @@ if(!isset($_REQUEST['posdescription'])) {
 }
 if(!isset($_REQUEST['posnum'])) {
 }
-
-// For debugging purposes 
-print_r($_REQUEST['posdate']);
-print_r($errors);
