@@ -1,9 +1,9 @@
-<? require('inc/header.inc.php'); ?>
+<?php require('inc/header.inc.php'); ?>
     <title>Husky Helpers - Organization Entry</title>
   </head>
 
   <body>
-    <? require('inc/navbar.inc.php'); ?>
+    <?php require('inc/navbar.inc.php'); ?>
     <div class="container">
 
     
@@ -33,4 +33,4 @@
 		</p>
     </div> <!-- /container -->
 
-<? require("inc/footer.inc.php"); ?>
+<?php require("inc/footer.inc.php"); ?>

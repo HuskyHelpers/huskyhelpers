@@ -1,13 +1,13 @@
 <?php
     require('inc/validate.inc.php');
-    require('inc/insert.inc.php');
+    //require('inc/insert.inc.php');
     require('inc/header.inc.php');
     ?>
     <title>Husky Helpers - Position Entry</title>
   </head>
 
   <body>
-    <? require('inc/navbar.inc.php'); ?>
+    <?php require('inc/navbar.inc.php'); ?>
     <div class="container">
 
     
@@ -50,4 +50,4 @@
 		</div>
     </div> <!-- /container -->
 
-<? require("inc/footer.inc.php"); ?>
+<?php require("inc/footer.inc.php"); ?>
