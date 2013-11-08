@@ -30,15 +30,15 @@
                     
 					<!-- List group -->
 					<ul class="list-group">
-					<li class="list-group-item"> Organization ID: <input type="text" name="orgid"> </li>
-					<li class="list-group-item"> Organization Name: <input type="text" name="orgname" <?php if(isset($_REQUEST['orgname'])) { echo 'value="'.$_REQUEST['orgname'].'"'; } ?> /></li>
-					<li class="list-group-item"> UW Affiliation: <input type="text" name="affiliation" <?php if(isset($_REQUEST['affiliation'])) { echo 'value="'.$_REQUEST['affiliation'].'"'; } ?> /></li>
-					<li class="list-group-item"> Position Name:  <input type="text" name="posname" <?php if(isset($_REQUEST['posname'])) { echo 'value="'.$_REQUEST['posname'].'"'; } ?> /></li>
-					<li class="list-group-item"> Position Location: <input type="text" name="poslocation" <?php if(isset($_REQUEST['poslocation'])) { echo 'value="'.$_REQUEST['poslocation'].'"'; } ?> /></li>
-					<li class="list-group-item"> Position Date: <input type="date" name="posdate" <?php if(isset($_REQUEST['posdate'])) { echo 'value="'.$_REQUEST['posdate'].'"'; } ?> /></li>
-					<li class="list-group-item"> Position Description: <input type="text" name="posdescription" <?php if(isset($_REQUEST['posdescription'])) { echo 'value="'.$_REQUEST['posdescription'].'"'; } ?> /></li>
+					<li class="list-group-item"> Organization ID: <input type="text" name="orgid" placeholder="123456"> </li>
+					<li class="list-group-item"> Organization Name: <input type="text" name="orgname" placeholder="Husky Helpers"<?php if(isset($_REQUEST['orgname'])) { echo 'value="'.$_REQUEST['orgname'].'"'; } ?> /></li>
+					<li class="list-group-item"> UW Affiliation: <input type="text" name="affiliation" placeholder="UW Club" <?php if(isset($_REQUEST['affiliation'])) { echo 'value="'.$_REQUEST['affiliation'].'"'; } ?> /></li>
+					<li class="list-group-item"> Position Name:  <input type="text" name="posname" placeholder="Teacher"<?php if(isset($_REQUEST['posname'])) { echo 'value="'.$_REQUEST['posname'].'"'; } ?> /></li>
+					<li class="list-group-item"> Position Location: <input type="text" name="poslocation" placeholder="1234 Main St." <?php if(isset($_REQUEST['poslocation'])) { echo 'value="'.$_REQUEST['poslocation'].'"'; } ?> /></li>
+					<li class="list-group-item"> Position Date: <input type="date" name="posdate" placeholder="01/01/01" <?php if(isset($_REQUEST['posdate'])) { echo 'value="'.$_REQUEST['posdate'].'"'; } ?> /></li>
+					<li class="list-group-item"> Position Description: <input type="text" name="posdescription" placeholder="Help our organization with the children during summer vacation. "<?php if(isset($_REQUEST['posdescription'])) { echo 'value="'.$_REQUEST['posdescription'].'"'; } ?> /></li>
 					<!-- Number selector thing for NUMBER OF POSITIONS can go below 0.  Need to validate input. -->
-					<li class="list-group-item"> Number of Positions: <input type="number" name="posnum" <?php if(isset($_REQUEST['posnum'])) { echo 'value="'.$_REQUEST['posnum'].'"'; } ?> /></li>
+					<li class="list-group-item"> Number of Positions: <input type="number" name="posnum" placeholder="1"<?php if(isset($_REQUEST['posnum'])) { echo 'value="'.$_REQUEST['posnum'].'"'; } ?> /></li>
 					</ul>
                     
 				</div>
