@@ -19,11 +19,11 @@
 					<!-- List group -->
 					<ul class="list-group">
 					<li class="list-group-item">
-					<li class="list-group-item"> <form> Organization Name: <input type="text" name="Orgname"><?php if(isset($_REQUEST['Orgname'])) { echo 'value="'.$_REQUEST['Orgname'].'"' } ?> />> </form> </li>
-					<li class="list-group-item"> <form> Address: <input type="text" name="Orgadd"></form><?php if(isset($_REQUEST['Orgadd'])) { echo 'value="'.$_REQUEST['Orgadd'].'"' } ?> />></li>
-					<li class="list-group-item"> <form> Contact: <input type="text" name="Orgcon"></form><?php if(isset($_REQUEST['Orgcon'])) { echo 'value="'.$_REQUEST['Orgcon'].'"' } ?> />></li>
-					<li class="list-group-item"> <form> Contact #: <input type="text" name="Orgcon#"> </form><?php if(isset($_REQUEST['Orgcon#'])) { echo 'value="'.$_REQUEST['Orgcon#'].'"' } ?> />></li>
-					<li class="list-group-item"> <form> Contact email: <input type="text" name="Orgemail"> </form><?php if(isset($_REQUEST['Orgemail'])) { echo 'value="'.$_REQUEST['orgemail'].'"' } ?> />></li>
+					<li class="list-group-item"> <form> Organization Name: <input type="text" name="Orgname" <?php if(isset($_REQUEST['Orgname'])) { echo 'value="'.$_REQUEST['Orgname'].'"' } ?> /> </form> </li>
+					<li class="list-group-item"> <form> Address: <input type="text" name="Orgadd" <?php if(isset($_REQUEST['Orgadd'])) { echo 'value="'.$_REQUEST['Orgadd'].'"' } ?> /></form></li>
+					<li class="list-group-item"> <form> Contact: <input type="text" name="Orgcon" <?php if(isset($_REQUEST['Orgcon'])) { echo 'value="'.$_REQUEST['Orgcon'].'"' } ?> /></form></li>
+					<li class="list-group-item"> <form> Contact #: <input type="text" name="Orgcon#" <?php if(isset($_REQUEST['Orgcon#'])) { echo 'value="'.$_REQUEST['Orgcon#'].'"' } ?> /></form></li>
+					<li class="list-group-item"> <form> Contact email: <input type="text" name="Orgemail" <?php if(isset($_REQUEST['Orgemail'])) { echo 'value="'.$_REQUEST['orgemail'].'"' } ?> /></form></li>
 					</ul>
 				</div>
 			</div>
