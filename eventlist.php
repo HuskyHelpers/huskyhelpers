@@ -1,10 +1,10 @@
-<? require('inc/header.inc.php'); ?>
+<?php require('inc/header.inc.php'); ?>
     <title>Event List</title>
 
   </head>
 
   <body>
-<? require('inc/navbar.inc.php'); ?>
+<?php require('inc/navbar.inc.php'); ?>
     <div class="container">
 
       <!-- Search Section -->
@@ -97,4 +97,4 @@
 			</table>
 		</div>
     </div> <!-- /container -->
-<? require("inc/footer.inc.php"); ?>
+<?php require("inc/footer.inc.php"); ?>
