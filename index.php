@@ -15,6 +15,7 @@
     </h2>
   </form>
   <img src="/resources/thumbsup.jpg" alt="Thumbs Up!"></img>
+  <img src="/resources/helpingpor.jpg" alt="Helping!"></img>
   </section>
   <?php require("inc/footer.inc.php"); ?>
 </body>
