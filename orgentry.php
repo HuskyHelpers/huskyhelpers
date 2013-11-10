@@ -26,7 +26,7 @@
       <!-- Main component for a primary marketing message or call to action -->
         <div class="panel panel-default">
          <!-- Default panel contents -->
-			<div class="panel-heading">Enter your Organization information below:
+			<div class="panel-heading">New to Husky Helpers? Enter your Organization information below:
 				<div class="panel-body">
 					<!-- List group -->
 					<ul class="list-group">
