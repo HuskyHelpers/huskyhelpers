@@ -9,8 +9,8 @@
     
       <!-- Main component for a primary marketing message or call to action -->
 		<div class="jumbotron">
-			<h1>Enter your information below</h1>
-			<p></p>
+			<h1>Volunteer Preferences</h1>
+			<p>Change your search and user information.</p>
 		</div>
         <div class="panel panel-default">
          <!-- Default panel contents -->

@@ -5,6 +5,10 @@
   <body>
     <?php require('inc/navbar.inc.php'); ?>
     <div class="container">
+		<div class="jumbotron">
+			<h1>Organization Sign In / Sign Up</h1>
+			<p>Please log in or sign up below to create and view your volunteer positions.</p>
+		</div>
 	        <!-- Main component for a primary marketing message or call to action -->
         <div class="panel panel-default">
          <!-- Default panel contents -->
