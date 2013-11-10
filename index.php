@@ -1,16 +1,20 @@
+<head>
 <?php require('inc/header.inc.php'); ?>
 <title>Husky Helpers - Home</title>
 </head>
 <body>
   <?php require('inc/navbar.inc.php'); ?>
-  <title>Volunteer Opportunities for UW Bothell Students</title>
-  <section id="label">
-    <h1>Volunteer Opporitunities for UW Bothell Students</h1>
-  </section>
+    <title>Volunteer Opportunities for UW Bothell Students</title>
+    <h1 id="stamped" title="Volunteer Opportunities for UW Bothell Students">
+      Volunteer Opportunities for UW Bothell Students
+    </h1>
   <form>
-    <h2>
-      Search for volunteer events:  <input type="text" name="Search "placeholder="Helping animals "<br>
+    <h2 id="stamped" title="Search for volunteer events:">
+      Search for volunteer events:
+      <input type="text" name="Search "placeholder="Helping animals "<br>
     </h2>
   </form>
+  <img src="/resources/thumbsup.jpg" alt="Thumbs Up!"></img>
+  </section>
   <?php require("inc/footer.inc.php"); ?>
 </body>
