@@ -75,14 +75,14 @@
 			</form>
 			<form>
 				<p>Please select your areas of interest</p>
-				<input type="checkbox" name="kids" value="children">Children & Youth
-				<input type="checkbox" name="animals" value="animals">Animals
-				<input type="checkbox" name="arts" value="arts">Arts & Culture<br>
-				<input type="checkbox" name="aducation" value="education">Education & Literacy 
-				<input type="checkbox" name="environtment" value="environment">Environment
-				<input type="checkbox" name="hunger" value="hunger">Hunger<br>
-				<input type="checkbox" name="homeless" value="homeless">Homeless & Housing
-				<input type="checkbox" name="sports" value="sports">Sports & Recreation
+				<input type="checkbox" name="kids" value="children"> Children & Youth
+				<input type="checkbox" name="animals" value="animals"> Animals
+				<input type="checkbox" name="arts" value="arts"> Arts & Culture<br>
+				<input type="checkbox" name="aducation" value="education"> Education & Literacy 
+				<input type="checkbox" name="environtment" value="environment"> Environment
+				<input type="checkbox" name="hunger" value="hunger"> Hunger<br>
+				<input type="checkbox" name="homeless" value="homeless"> Homeless & Housing
+				<input type="checkbox" name="sports" value="sports"> Sports & Recreation
 			</form> 
 			<p>
 				<a class="btn btn-lg btn-primary" role="button">Search &raquo;</a>

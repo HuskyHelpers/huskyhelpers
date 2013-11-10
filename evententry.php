@@ -15,21 +15,19 @@
 		<div class="jumbotron">
 			<h1>Create Your Position Listing</h1>
 			<p>In order to create your position, fill out all the information in the forms below.</p>
-			
 		</div>
 		<div class="panel panel-default">
 			 <!-- Default panel contents -->
              <pre><?php
                 // For debugging purposes 
-                print_r($_REQUEST["posdate"]);
-                print_r($errors);
+                //print_r($_REQUEST["posdate"]);
+               // print_r($errors);
                 ?></pre>             
              <form action="evententry.php" method="POST">
 			<div class="panel-heading">Position Entry:
 				<div class="panel-body">
                     
 					<!-- List group -->
-					<ul class="list-group">
 					<li class="list-group-item"> Organization ID: <input type="text" name="orgid" placeholder="123456"> </li>
 					<li class="list-group-item"> Organization Name: <input type="text" name="orgname" placeholder="Husky Helpers"<?php if(isset($_REQUEST['orgname'])) { echo 'value="'.$_REQUEST['orgname'].'"'; } ?> /></li>
 					<li class="list-group-item"> Position Start Time: <input type="time" name="starttime" placeholder=" " <?php if(isset($_REQUEST['starttime'])) { echo 'value="'.$_REQUEST['starttime'].'"'; } ?> /></li>
