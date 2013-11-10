@@ -21,7 +21,7 @@
 			 <!-- Default panel contents -->
              <pre><?php
                 // For debugging purposes 
-                print_r($_REQUEST['posdate']);
+                print_r($_REQUEST["posdate"]);
                 print_r($errors);
                 ?></pre>             
              <form action="evententry.php" method="POST">
