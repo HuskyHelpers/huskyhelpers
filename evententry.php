@@ -45,5 +45,5 @@
 			</div>
 		</div>
     </div> <!-- /container -->
+	
 
-<?php require("inc/footer.inc.php"); ?>

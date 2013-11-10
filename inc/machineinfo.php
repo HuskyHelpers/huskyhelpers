@@ -1,7 +1,7 @@
 <?php
 	array $info ("localhost" -> "localhost"
 				"huskyhelpers" -> "huskyhelpers"
-				"password" -> "BDm73tbxbFVKT4ZC"
+				"password" -> "generic"
 				"databasename" -> "huskyhelpers"
 				)
 				
