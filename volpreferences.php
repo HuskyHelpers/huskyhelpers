@@ -38,7 +38,7 @@
 					</ul>
 				</div>
 				<p>
-					<input type="submit" name="submit" value="Submit &raquo;" class="btn btn-lg btn-primary">
+					<input type="submit" name="submit" value="Update &raquo;" class="btn btn-lg btn-primary">
 				</p>
 			</div>
         </div>

@@ -1,5 +1,5 @@
 <?php require('inc/header.inc.php'); ?>
-    <title>Husky Helpers - Organization Entry</title>
+    <title>Husky Helpers - Organization Sign In</title>
   </head>
 
   <body>
