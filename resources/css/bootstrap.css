@@ -33,6 +33,8 @@ body {
     background-image: -webkit-linear-gradient(top left, #FFF954 0%, #521C69 100%);
     /* W3C Markup, IE10 Release Preview */
     background-image: linear-gradient(to bottom right, #FFF954 0%, #521C69 100%);
+    background-attachment:fixed;
+    height:100%;
 }
 
 summary {
