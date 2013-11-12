@@ -29,9 +29,10 @@ if(!isset($_REQUEST['posname'])) {
 }
 if(!isset($_REQUEST['poslocation'])) {
 	$errors['posname'] = "This field can not be blank.";
-}else {
+} else {
 	if(strlen($_REQUEST['posname']) > 50) {
         $error['orgname'] = "Position Location can not be over 50 characters";
+    }
 }
 if(!isset($_REQUEST['posdate'])) {
 } else {
