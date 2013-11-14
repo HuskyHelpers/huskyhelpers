@@ -5,7 +5,7 @@ if(count($errors) == 0) {
     if($mysqli->connect_error) {
         die("Connection error: " .$mysqli->connect_error);
     }
-    if(!$stmt = $mysqli-prepare("INSERT INTO `event` (`Name`, `Location`, `Description`, `StartTime`, `EndTime`, `OrgID`) VALUES (?, ?,  ?,  ?,  ?,  ?);")) {
+    if(!$stmt = $mysqli->prepare("INSERT INTO `event` (`Name`, `Location`, `Description`, `StartTime`, `EndTime`, `OrgID`) VALUES (?, ?,  ?,  ?,  ?,  ?);")) {
         echo "<pre>";
         print_r($stmt->error_list);
         echo "</pre>";
