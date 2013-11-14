@@ -19,19 +19,22 @@ if(!isset($_REQUEST['orgname'])) {
 	//if it does $error['orgname'] = "Organization name already exists";
 	}
 }
+
+/*
 if(!isset($_REQUEST['posname'])) {
 	$errors['posname'] = "This field can not be blank.";
 } else {
     if(strlen($_REQUEST['posname']) > 50) {
         $error['orgname'] = "Position Name can not be over 50 characters";
     }
-
 }
+*/
+
 if(!isset($_REQUEST['poslocation'])) {
-	$errors['posname'] = "This field can not be blank.";
+	$errors['poslocation'] = "This field can not be blank.";
 } else {
-	if(strlen($_REQUEST['posname']) > 50) {
-        $error['orgname'] = "Position Location can not be over 50 characters";
+	if(strlen($_REQUEST['poslocation']) > 50) {
+        $error['poslocation'] = "Position Location can not be over 50 characters";
     }
 }
 if(!isset($_REQUEST['posdate'])) {
@@ -45,7 +48,6 @@ if(!isset($_REQUEST['posdate'])) {
      */
 }
 if(!isset($_REQUEST['posdescription'])) {
-
 
 }
 if(!isset($_REQUEST['posnum'])) {

@@ -2,9 +2,19 @@
 require 'settings.inc.php';
 if(count($errors) == 0) {
     $mysqli = new mysqli($SETTINGS['mysql']['host'], $SETTINGS['mysql']['user'], $SETTINGS['mysql']['pass'], $SETTINGS['mysql']['db']);
-    $stmt = $mysqli-prepare("INSERT INTO `event` (`Name`, `Location`, `Description`, `StartTime`, `EndTime`, `OrgID`) VALUES (?, ?,  ?,  ?,  ?,  ?);");
+    if($mysqli->connect_error) {
+        die("Connection error: " .$mysqli->connect_error);
+    }
+    if(!$stmt = $mysqli-prepare("INSERT INTO `event` (`Name`, `Location`, `Description`, `StartTime`, `EndTime`, `OrgID`) VALUES (?, ?,  ?,  ?,  ?,  ?);")) {
+        echo "<pre>";
+        print_r($stmt->error_list);
+        echo "</pre>";
+        die("Statement error. You suck at SQL");
+    }
     $stmt->bind_param("sssssi", $_REQUEST['posname'], $_REQUEST['poslocation'], $_REQUEST['description'], $_REQUEST['starttime'], $_REQUEST['endtime'], $_REQUEST['orgid']); // etc
     $stmt->execute();
     $stmt->close();
     $mysqli->close();
+} else {
+    error_log(count($errors)." errors in this guy's form");
 }

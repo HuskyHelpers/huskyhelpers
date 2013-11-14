@@ -21,19 +21,22 @@
              <pre><?php
                 // For debugging purposes 
                 //print_r($_REQUEST["posdate"]);
-               // print_r($errors);
+               print_r($errors);
+               echo "<hr />";
+               print_r($_REQUEST);
                 ?></pre>             
              <form action="evententry.php" method="POST">
 			<div class="panel-heading">Position Entry:
 				<div class="panel-body">
                     
 					<!-- List group -->
-					<li class="list-group-item"> Organization ID: <input type="text" name="orgid" placeholder="123456"> </li>
-					<li class="list-group-item"> Organization Name: <input type="text" name="orgname" placeholder="Husky Helpers"<?php if(isset($_REQUEST['orgname'])) { echo 'value="'.$_REQUEST['orgname'].'"'; } ?> /></li>
+					<li class="list-group-item"> Organization ID: <input type="text" name="orgid" placeholder="123456" <?php if(isset($_REQUEST['orgid'])) { echo 'value="'.$_REQUEST['orgid'].'"'; } ?>> </li>
+					<li class="list-group-item"> Organization Name: <input type="text" name="orgname" placeholder="Husky Helpers" <?php if(isset($_REQUEST['orgname'])) { echo 'value="'.$_REQUEST['orgname'].'"'; } ?> /></li>
 					<li class="list-group-item"> Position Start Time: <input type="time" name="starttime" placeholder=" " <?php if(isset($_REQUEST['starttime'])) { echo 'value="'.$_REQUEST['starttime'].'"'; } ?> /></li>
 					<li class="list-group-item"> Position End Time: <input type="time" name="endtime" placeholder=" " <?php if(isset($_REQUEST['endtime'])) { echo 'value="'.$_REQUEST['endtime'].'"'; } ?> /></li>
-					<li class="list-group-item"> Position Description: <input type="text" name="posdescription" size=100 placeholder="Help our organization with the children during summer vacation. "<?php if(isset($_REQUEST['posdescription'])) { echo 'value="'.$_REQUEST['posdescription'].'"'; } ?> /></li>
-					<li class="list-group-item"> Position Location: <input type="text" name="location" placeholder="Bothell"<?php if(isset($_REQUEST['date'])) { echo 'value="'.$_REQUEST['date'].'"'; } ?> /></li>
+					<li class="list-group-item"> Position Name: <input type="text" name="posname" placeholder="Child Organizer" <?php if(isset($_REQUEST['posname'])) { echo 'value="'.$_REQUEST['posname'].'"'; } ?> /></li>
+					<li class="list-group-item"> Position Description: <input type="text" name="posdescription" size="100" placeholder="Help our organization with the children during summer vacation. " <?php if(isset($_REQUEST['posdescription'])) { echo 'value="'.$_REQUEST['posdescription'].'"'; } ?> /></li>
+					<li class="list-group-item"> Position Location: <input type="text" name="poslocation" placeholder="Bothell" <?php if(isset($_REQUEST['poslocation'])) { echo 'value="'.$_REQUEST['poslocation'].'"'; } ?> /></li>
 					<!-- Number selector thing for NUMBER OF POSITIONS can go below 0.  Need to validate input. -->
 					</ul>
                     
