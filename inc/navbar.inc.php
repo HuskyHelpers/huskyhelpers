@@ -9,11 +9,11 @@
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li <? if($_SERVER['PHP_SELF'] == "/index.php") { ?>class="active"<? } ?>><a href="/">Home</a></li>
-		<li <? if($_SERVER['PHP_SELF'] == "/volprefernces.php") { ?>class="active"<? } ?>><a href="/volpreferences.php">Volunteer Preferences</a></li>
-        <li <? if($_SERVER['PHP_SELF'] == "/eventlist.php") { ?>class="active"<? } ?>><a href="/eventlist.php">Event List</a></li>
-        <li <? if($_SERVER['PHP_SELF'] == "/evententry.php") { ?>class="active"<? } ?>><a href="/evententry.php">Event Entry</a></li>
-		<li <? if($_SERVER['PHP_SELF'] == "/orgentry.php") { ?>class="active"<? } ?>><a href="/orgentry.php">Organization Sign In / Sign up</a></li>
+        <li <?php if($_SERVER['PHP_SELF'] == "/index.php") { ?>class="active"<?php } ?>><a href="/">Home</a></li>
+		<li <?php if($_SERVER['PHP_SELF'] == "/volprefernces.php") { ?>class="active"<?php } ?>><a href="/volpreferences.php">Volunteer Preferences</a></li>
+        <li <?php if($_SERVER['PHP_SELF'] == "/eventlist.php") { ?>class="active"<?php } ?>><a href="/eventlist.php">Event List</a></li>
+        <li <?php if($_SERVER['PHP_SELF'] == "/evententry.php") { ?>class="active"<?php } ?>><a href="/evententry.php">Event Entry</a></li>
+		<li <?php if($_SERVER['PHP_SELF'] == "/orgentry.php") { ?>class="active"<?php } ?>><a href="/orgentry.php">Organization Sign In / Sign up</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="/login.php">Login with NetID</a></li>

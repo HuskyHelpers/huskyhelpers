@@ -7,3 +7,4 @@ if(count($errors) == 0) {
     $stmt->execute();
     $stmt->close();
     $mysqli->close();
+}
