@@ -37,7 +37,7 @@
 					<li class="list-group-item"> <form> Organization Name: <input type="text" name="Orgname" placeholder="Husky Helpers"<?php if(isset($_REQUEST['Orgname'])) { echo 'value="'.$_REQUEST['Orgname'].'"'; } ?> /> </form> </li>
 					<li class="list-group-item"> <form> Address: <input type="text" name="Orgadd" placeholder="1234 Main St."<?php if(isset($_REQUEST['Orgadd'])) { echo 'value="'.$_REQUEST['Orgadd'].'"'; } ?> /></form></li>
 					<li class="list-group-item"> <form> Contact: <input type="text" name="Orgcon" placeholder="Joe Smith"<?php if(isset($_REQUEST['Orgcon'])) { echo 'value="'.$_REQUEST['Orgcon'].'"'; } ?> /></form></li>
-					<li class="list-group-item"> <form> Contact #: <input type="number" name="Orgcon#" placeholder="(555) - 5555"<?php if(isset($_REQUEST['Orgcon#'])) { echo 'value="'.$_REQUEST['Orgcon#'].'"'; } ?> /></form></li>
+					<li class="list-group-item"> <form> Contact #: <input type="text" name="Orgcon#" placeholder="(555) - 5555"<?php if(isset($_REQUEST['Orgcon#'])) { echo 'value="'.$_REQUEST['Orgcon#'].'"'; } ?> /></form></li>
 					<li class="list-group-item"> <form> Contact email: <input type="text" name="Orgemail" placeholder="name@domain.com"<?php if(isset($_REQUEST['Orgemail'])) { echo 'value="'.$_REQUEST['orgemail'].'"'; } ?> /></form></li>
 					</ul>
 				</div>			
