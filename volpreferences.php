@@ -9,8 +9,8 @@
     
       <!-- Main component for a primary marketing message or call to action -->
 		<div class="jumbotron">
-			<h1>Enter your information below</h1>
-			<p></p>
+			<h1>Volunteer Preferences</h1>
+			<p>Change your search and user information.</p>
 		</div>
         <div class="panel panel-default">
          <!-- Default panel contents -->
@@ -20,7 +20,7 @@
 					<p>Personal Information</p>
 					<ul class="list-group">
 					<li class="list-group-item"> <form> Name: <input type="text" name="Volname" placeholder="John Doe"<?php if(isset($_REQUEST['Volname'])) { echo 'value="'.$_REQUEST['Volname'].'"'; } ?> /> </form> </li>
-					<li class="list-group-item"> <form> Contact #: <input type="number" name="Volcon#" placeholder="(555)555-5555"<?php if(isset($_REQUEST['Volcon#'])) { echo 'value="'.$_REQUEST['Volcon#'].'"'; } ?> /></form></li>
+					<li class="list-group-item"> <form> Contact #: <input type="text" name="Volcon#" placeholder="(555)555-5555"<?php if(isset($_REQUEST['Volcon#'])) { echo 'value="'.$_REQUEST['Volcon#'].'"'; } ?> /></form></li>
 					<li class="list-group-item"> <form> Contact email: <input type="text" name="Volemail" placeholder="name@domain.com"<?php if(isset($_REQUEST['Volemail'])) { echo 'value="'.$_REQUEST['Volemail'].'"'; } ?> /></form></li>
 					</ul>
 					<p>Areas of interest</p>
@@ -38,7 +38,7 @@
 					</ul>
 				</div>
 				<p>
-					<input type="submit" name="submit" value="Submit &raquo;" class="btn btn-lg btn-primary">
+					<input type="submit" name="submit" value="Update &raquo;" class="btn btn-lg btn-primary">
 				</p>
 			</div>
         </div>

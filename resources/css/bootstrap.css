@@ -36,7 +36,28 @@ body {
     background-attachment:fixed;
     height:100%;
 }
+#letterpress {
+    color:#2f4050;
+    font-family:Tahoma, Helvetica, Arial, sans-serif;
+    font-size:70px;
+    text-align:center;
+    text-shadow: 0 1px 1px #fff; 
+}
+   #stamped {
+    display: block;
+    color: white;
+    font: 3em Arial, sans-serif;
+    position: relative;
+    }
 
+    #stamped:before, #text:after {
+    content: attr(title);
+    color: #222;
+    position: absolute;
+    }
+
+    #stamped:before { top: 1px; left: 1px; }
+    #stamped:after  { top: 2px; left: 2px; }
 summary {
   display: block;
 }

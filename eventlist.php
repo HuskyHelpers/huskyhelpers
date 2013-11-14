@@ -11,6 +11,12 @@
 		<div class="jumbotron">
 			<h1>Event List</h1>
 			<p>Search for volunteer opportunities.</p>
+		</div>
+		<div class="panel panel-default">
+        <!-- Default panel contents -->
+		<div class="panel-heading">Event list:
+			<div class="panel-body">
+			<!-- List group -->
 			<form>
 				<!-- Single button -->
 					<div>
@@ -73,17 +79,19 @@
 					</select>
 				</div>
 			</form>
+			<h1></h1>
 			<form>
 				<p>Please select your areas of interest</p>
 				<input type="checkbox" name="kids" value="children"> Children & Youth
 				<input type="checkbox" name="animals" value="animals"> Animals
 				<input type="checkbox" name="arts" value="arts"> Arts & Culture<br>
-				<input type="checkbox" name="aducation" value="education"> Education & Literacy 
-				<input type="checkbox" name="environtment" value="environment"> Environment
+				<input type="checkbox" name="education" value="education"> Education & Literacy 
+				<input type="checkbox" name="environment" value="environment"> Environment
 				<input type="checkbox" name="hunger" value="hunger"> Hunger<br>
 				<input type="checkbox" name="homeless" value="homeless"> Homeless & Housing
 				<input type="checkbox" name="sports" value="sports"> Sports & Recreation
 			</form> 
+			<h1></h1>
 			<p>
 				<a class="btn btn-lg btn-primary" role="button">Search &raquo;</a>
 			</p>
