@@ -11,9 +11,10 @@
   <form>
     <h2 id="stamped" title="Search for volunteer events:">
       Search for volunteer events:
+    </h2>
       <input type="text" name="Search "placeholder="Helping animals "<br>
        <input type="submit" name="submit" value="Submit &raquo;" class="btn btn-lg btn-primary">
-    </h2>
+    
   </form>
   <img src="/resources/thumbsup.jpg" alt="Thumbs Up!"></img>
   <img src="/resources/helpingpor.jpg" alt="Helping!"></img>
