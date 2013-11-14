@@ -4,8 +4,8 @@ $errors = array();
 if(!isset($_REQUEST['orgid'])) {
     //should pull from DB
 } else {
-    if(!is_int($_REQUEST['orgid'])) {
-       // $errors['orgid'] = "This needs to be a number!";
+    if(is_int($_REQUEST['orgid'])) {
+        $errors['orgid'] = "This needs to be a number!";
     }
 }
 if(!isset($_REQUEST['orgname'])) {
@@ -20,7 +20,6 @@ if(!isset($_REQUEST['orgname'])) {
 	}
 }
 
-/*
 if(!isset($_REQUEST['posname'])) {
 	$errors['posname'] = "This field can not be blank.";
 } else {
@@ -28,7 +27,6 @@ if(!isset($_REQUEST['posname'])) {
         $error['orgname'] = "Position Name can not be over 50 characters";
     }
 }
-*/
 
 if(!isset($_REQUEST['poslocation'])) {
 	$errors['poslocation'] = "This field can not be blank.";
