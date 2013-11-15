@@ -82,6 +82,8 @@
 			<h1></h1>
 			<form>
 				<p>Please select your areas of interest</p>
+				<ul class="list-group">
+				<li class="list-group-item"> <form> 
 				<input type="checkbox" name="kids" value="children"> Children & Youth
 				<input type="checkbox" name="animals" value="animals"> Animals
 				<input type="checkbox" name="arts" value="arts"> Arts & Culture<br>
@@ -90,6 +92,8 @@
 				<input type="checkbox" name="hunger" value="hunger"> Hunger<br>
 				<input type="checkbox" name="homeless" value="homeless"> Homeless & Housing
 				<input type="checkbox" name="sports" value="sports"> Sports & Recreation
+				</form></li>
+				</ul>
 			</form> 
 			<h1></h1>
 			<p>
