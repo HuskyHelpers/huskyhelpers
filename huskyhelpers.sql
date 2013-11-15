@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 30, 2013 at 12:58 AM
+-- Generation Time: Nov 15, 2013 at 01:38 AM
 -- Server version: 5.6.11
 -- PHP Version: 5.5.3
 
@@ -34,8 +34,8 @@ CREATE TABLE IF NOT EXISTS `event` (
   `EventID` int(11) NOT NULL AUTO_INCREMENT,
   `ApprovalStatus` tinyint(1) NOT NULL,
   `Description` text NOT NULL,
-  `StartTime` datetime NOT NULL,
-  `EndTime` datetime NOT NULL,
+  `StartTime` time NOT NULL,
+  `EndTime` time NOT NULL,
   `OrgID` int(11) NOT NULL,
   PRIMARY KEY (`EventID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
