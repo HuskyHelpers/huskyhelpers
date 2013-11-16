@@ -5,8 +5,6 @@
         die("Whoops, you didn't set an authURL! check <pre>inc/settings.inc.php</pre>, see the example at <pre>inc/settings.inc.example.php</pre>");
     }
     if(isset($_SESSION['authtoken'])) {
-        error_log($SETTINGS['authURL']."fetchauth.php?token=".$_SESSION['authtoken']);
-        //die("durrruruurruurr");
         $user = file_get_contents($SETTINGS['authURL']."fetchauth.php?token=".$_SESSION['authtoken']);
         if($user != "") {
             $_SESSION['user'] = $user;
