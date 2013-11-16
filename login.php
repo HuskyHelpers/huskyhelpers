@@ -6,7 +6,7 @@
     }
     if(isset($_SESSION['authtoken'])) {
         $user = file_get_contents($SETTINGS['authURL']."fetchauth.php?token=".$_SESSION['authtoken']);
-        if($user != "") {
+        if($user != "" && strpos($user, " ")) {
             $_SESSION['user'] = $user;
             unset($_SESSION['authtoken']);
             if(isset($_SESSION['dest'])) {
@@ -16,7 +16,7 @@
                 header("Location: /");
             }
         } else {
-            die("Empty username!");
+            header("Location: ".$SETTINGS['authURL']."auth/?token=".urlencode($_SESSION['authtoken'])."&dest=".urlencode($_SERVER['HTTP_REFERER']));
         }
     } elseif(!isset($_SESSION['user'])) {
         $_SESSION['authtoken'] = uniqid();
