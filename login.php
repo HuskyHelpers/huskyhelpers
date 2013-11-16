@@ -16,12 +16,12 @@
                 header("Location: /");
             }
         } else {
-            header("Location: ".$SETTINGS['authURL']."auth/?token=".urlencode($_SESSION['authtoken'])."&dest=".urlencode($_SERVER['HTTP_REFERER']));
+            header("Location: ".$SETTINGS['authURL']."auth/?token=".urlencode($_SESSION['authtoken'])."&dest=".urlencode($_SESSION['dest']));
         }
     } elseif(!isset($_SESSION['user'])) {
         $_SESSION['authtoken'] = uniqid();
         $_SESSION['dest'] = $_SERVER['HTTP_REFERER'];
-        header("Location: ".$SETTINGS['authURL']."auth/?token=".urlencode($_SESSION['authtoken'])."&dest=".urlencode($_SERVER['HTTP_REFERER']));
+        header("Location: ".$SETTINGS['authURL']."auth/?token=".urlencode($_SESSION['authtoken'])."&dest=".urlencode($_SESSION['dest']));
     } else {
         die("You're already logged in as ".$_SESSION['user'].", silly!");
     }
