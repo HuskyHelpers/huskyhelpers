@@ -17,14 +17,7 @@
 			<p>In order to create your position, fill out all the information in the forms below.</p>
 		</div>
 		<div class="panel panel-default">
-			 <!-- Default panel contents -->
-             <pre><?php
-                // For debugging purposes 
-                //print_r($_REQUEST["posdate"]);
-               print_r($errors);
-               echo "<hr />";
-               print_r($_REQUEST);
-                ?></pre>             
+			 <!-- Default panel contents -->            
              <form action="evententry.php" method="POST">
 			<div class="panel-heading">Position Entry:
 				<div class="panel-body">

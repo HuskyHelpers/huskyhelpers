@@ -15,6 +15,4 @@ if(count($errors) == 0) {
     $stmt->execute();
     $stmt->close();
     $mysqli->close();
-} else {
-    error_log(count($errors)." errors in this guy's form");
 }
