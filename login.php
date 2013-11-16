@@ -6,7 +6,7 @@
     }
     if(isset($_SESSION['authtoken'])) {
         $user = file_get_contents($SETTINGS['authURL']."fetchauth.php?token=".$_SESSION['authtoken']);
-        if($user != "" && strpos($user, " ")) {
+        if($user != "" && !strpos($user, " ")) {
             $_SESSION['user'] = $user;
             unset($_SESSION['authtoken']);
             if(isset($_SESSION['dest'])) {
