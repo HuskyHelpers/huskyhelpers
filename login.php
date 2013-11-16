@@ -2,7 +2,7 @@
     session_start();
     require "inc/settings.inc.php";
     if(!isset($SETTINGS['authURL'])) {
-        die("Whoops, you didn't set an authURL! check <pre>inc/settings.inc.php</pre>, see the example at <pre>inc/settings.inc.example.php</pre>";
+        die("Whoops, you didn't set an authURL! check <pre>inc/settings.inc.php</pre>, see the example at <pre>inc/settings.inc.example.php</pre>");
     }
     if(isset($_SESSION['authtoken'])) {
         error_log($SETTINGS['authURL']."fetchauth.php?token=".$_SESSION['authtoken']);
