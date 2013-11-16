@@ -45,7 +45,8 @@ if(!isset($_REQUEST['posdate'])) {
      */
 }
 if(!isset($_REQUEST['posdescription'])) {
-
+    $error['posdescripton'] = "This field cannot be left blank";
 }
 if(!isset($_REQUEST['posnum'])) {
+    $error['posnum'] = "This field cannot be left blank";
 }
