@@ -12,8 +12,8 @@
     <h2 id="stamped" title="Search for volunteer events:">
       Search for volunteer events:
     </h2>
-      <input type="text" name="Search" size= 180 placeholder="Helping animals"<br>
-       <input type="submit" name="submit" value="Submit &raquo;" class="btn btn-lg btn-primary">
+    <input type="text" name="Search" size="180" placeholder="Helping animals"><br>
+    <input type="submit" name="submit" value="Submit &raquo;" class="btn btn-lg btn-primary">
     
   </form>
   <img src="/resources/thumbsup.jpg" alt="Thumbs Up!"></img>
